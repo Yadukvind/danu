@@ -28,14 +28,17 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = "🔰👉 കൂടുതൽ സിനിമകൾക്കും മറ്റു വിവരങ്ങൾക്കുമായി ഞങ്ങളുടെ ഗ്രൂപ്പിൽ ജോയിൻ ചെയ്യൂ
+
+🌟༺ ──•◈•─ ─•◈•──༻🌟
+/n ➧@efcinema,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🏅OUR CHANNEL🏅', url="https://t.me/efchannel2"
                                 )
                         ]
                     ]
@@ -47,7 +50,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('Developers', url='https://t.me/efcinema'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
